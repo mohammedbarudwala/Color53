@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      width: 100%;
+    }
+  }
+
+  header {
+    background-color: lightgray;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: black;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  footer {
+    background-color: lightgray;
+    padding: 1em;
+    text-align: center;
+  }
+  
